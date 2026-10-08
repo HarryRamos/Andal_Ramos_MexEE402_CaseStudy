@@ -15,9 +15,9 @@ Batangas State University, Alangilan Campus
 
 | Chapter | Andal | Ramos |
 |---|---|---|
-| Ch1_2_3 | [link]() | [link]() |
-| Ch4 | [link]() | [link]() |
-| Ch5 | [link]() | [link]() |
+| Ch1_2_3 | [link]() | [https://colab.research.google.com/drive/1SSskdLsOk4Zad_Hk6fV-qfWHWQcvtS6A?usp=sharing]() |
+| Ch4 | [link]() | [https://colab.research.google.com/drive/1DR7ortiALB8B0nO8nFEQGEKA-qxmDEqv?usp=sharing]() |
+| Ch5 | [link]() | [https://colab.research.google.com/drive/1P43cVEJcbV3bcGnBSijX84Su9YjgzTXn?usp=sharing]() |
 | Ch6 | [link]() | [link]() |
 | Ch7 | [link]() | [link]() |
 | Ch8 | [link]() | [link]() |
