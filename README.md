@@ -53,7 +53,7 @@ There are real ones in there. Finding them earns points.
 ## 🤖 NOTE ON AI TOOLS
 AI tools (ChatGPT/Gemini) were used as a learning assistant and thought partner throughout this notebook
 * There are some parts of chapters we use AI about something as the description is too short for us to know and understand about it.
-* 
+* We also use AI to find the format of the code to know where we can see and gather an answer
 
 ## REFERENCES
 
