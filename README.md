@@ -23,39 +23,39 @@ Batangas State University, Alangilan Campus
 | Ch8 | [https://colab.research.google.com/drive/1OONiWZBb81peW5Tc-JK5yH0PlYhe33N_?usp=drive_link]() | [https://colab.research.google.com/drive/178qbFtRwRCjeJtPyR_ZYayklDcyFU56I?usp=sharing]() |
 | Ch9 | [https://colab.research.google.com/drive/115DrbnoRXPU83BeerZj3uYdPU6Abm2Uu?usp=drive_link]() | [https://colab.research.google.com/drive/1k-5Ax0w4bTechrfhgrmlxV0sCLH202A-?usp=sharing]() |
 
-## 📝 What we learned 
+## 📝 WHAT WE LEARNED
 
-### Chapter 1-3
+### ‣ Chapter 1-3 (Introduction to Preprocessing, Exploring and Cleaning Data)
 We learned that raw datasets are almost always messy, incomplete, or filled with inconsistent formatting that must be cleaned before modeling. What surprised us was how missing values aren't just empty cells to be deleted—recklessly dropping them can destroy valuable context, so choosing between imputation strategies and dropping rows requires careful judgment.
 
-### Chapter 4
+### ‣ Chapter 4 (Transformation, Feature Engineering, and Encoding)
 We learned how machine learning models require text and categories to be converted into numerical formats like One-Hot Encoding or Label Encoding. We're surprised to realize that assigning simple numbers to categories (like 1, 2, 3) can accidentally trick a model into thinking one category is "greater than" another, which is why creating dummy binary columns is necessary for non-ordinal features.
 
-### Chapter 5
+### ‣ Chapter 5 (Scaling and Normalization)
 We learned that features measured on different scales (like age vs. income) can cause models to heavily favor columns with larger numbers. What surprised us most was that standardizing a feature doesn't change its underlying distribution shape, it simply adjusts the mean to 0 and standard deviation to 1 so every variable competes fairly.
 
-### Chapter 6
+### ‣ Chapter 6 (Outlier Detection)
 We learned how extreme values can severely skew statistical metrics and distort machine learning predictions. What surprised us was discovering that outliers aren't automatically errors to be deleted, sometimes capping them at upper/lower thresholds preserves critical data volume without throwing off the model.
 
-### Chapter 7
+### ‣ Chapter 7 (	Feature Selection)
 We learned that more data isn't always better, as redundant or irrelevant features can actually reduce model accuracy and increase computational cost. We were surprised by how wrapper methods like RFECV test actual combinations of variables interactively, whereas filter methods look at isolated statistical relationships like correlation.
 
-### Chapter 8
+### ‣ Chapter 8 (Constructing a Preprocessing Pipeline)
 We learned how pipelines bundle cleaning, scaling, and transformation steps into a unified, reproducible sequence like a factory conveyor belt. What surprised us was how ColumnTransformer allows different feature types (like numerical vs. categorical) to pass through completely different preprocessing chains simultaneously within the same workflow.
 
-### Chapter 9
+### ‣ Chapter 9 (	Full Pipeline and Visualization)
 We learned how to combine data cleaning, discretization, encoding, and visualization into an end-to-end workflow on the Titanic dataset. What surprised us was seeing how converting continuous numbers like age into discrete life-stage bins (Child, Adult, Elderly) made survival patterns immediately clear during visualization.
 
-## ❌ Errors we found
+## ❌ ERRORS WE FOUND
 
 List any mistake you found in the original notebooks, and the correct version.
 There are real ones in there. Finding them earns points.
 
-## 🤖 Note on AI tools
+## 🤖 NOTE ON AI TOOLS
 * There are some parts of chapters we use AI about something as the description is too short for us to know and understand about it.
 * 
 
-## References
+## REFERENCES
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
 VanderPlas, J. Python Data Science Handbook.
