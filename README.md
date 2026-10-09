@@ -91,7 +91,7 @@ print(df_2.drop('final grade', axis=1).columns[selector.support_])
 ## 🤖 NOTE ON AI TOOLS
 AI tools (ChatGPT/Gemini) were used as a learning assistant and thought partner throughout this notebook
 * There are some parts of chapters we use AI about something as the description is too short for us to know and understand about it.
-* We used AI to correct the wrong version/code on the notebook.
+* We used AI to fix an error on the notebook.
 
 ## REFERENCES
 
