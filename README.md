@@ -52,7 +52,7 @@ We learned how to combine data cleaning, discretization, encoding, and visualiza
 
 ### ‣ Chapter 3
 
-**Issue:** Calling `inplace=True` on Series `fillna()` calls triggers `FutureWarning` in modern Pandas versions because chained assignment with inplace modification is deprecated.
+**Issue:** The original code uses inplace=True directly when filling missing values on DataFrame columns. In modern versions of Pandas, using inplace=True during chained column assignments generates a FutureWarning because this behavior is deprecated and scheduled for removal in future releases. It can lead to unpredictable behavior where values are modified on a temporary copy rather than the original DataFrame.
 
 **Wrong Version:**
 ```python
@@ -67,7 +67,7 @@ df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0])
 ---
 
 ### ‣ Chapter 7
-**Issue:** df_2 contains only 7 rows of data. Using 5-fold cross-validation (cv=5) results in folds with fewer than 2 samples. This triggers continuous UndefinedMetricWarning: R^2 score is not well-defined with less than two samples warnings and yields inaccurate selection results.
+**Issue:** The notebook attempts to run 5-fold cross-validation (cv=5) using RFECV on a dataset (df_2) that contains only 7 total rows. Splitting 7 samples into 5 folds leaves some training or validation splits with fewer than 2 data points. Because a linear regression model requires at least 2 points to calculate an $R^2$ metric, Python throws continuous UndefinedMetricWarning errors and produces inaccurate feature selections.
 
 <p></p>
 
