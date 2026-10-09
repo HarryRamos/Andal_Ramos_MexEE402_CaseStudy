@@ -47,11 +47,11 @@ We learned how pipelines bundle cleaning, scaling, and transformation steps into
 We learned how to combine data cleaning, discretization, encoding, and visualization into an end-to-end workflow on the Titanic dataset. What surprised us was seeing how converting continuous numbers like age into discrete life-stage bins (Child, Adult, Elderly) made survival patterns immediately clear during visualization.
 
 ## ❌ ERRORS WE FOUND
-
 List any mistake you found in the original notebooks, and the correct version.
 There are real ones in there. Finding them earns points.
 
 ## 🤖 NOTE ON AI TOOLS
+AI tools (ChatGPT/Gemini) were used as a learning assistant and thought partner throughout this notebook
 * There are some parts of chapters we use AI about something as the description is too short for us to know and understand about it.
 * 
 
