@@ -25,26 +25,28 @@ Batangas State University, Alangilan Campus
 
 ## 📝 WHAT WE LEARNED
 
-### ‣ Chapter 1-3 (Introduction to Preprocessing, Exploring and Cleaning Data)
+### ‣ Chapter 1-3: Introduction to Preprocessing, Exploring and Cleaning Data
 We learned that raw datasets are almost always messy, incomplete, or filled with inconsistent formatting that must be cleaned before modeling. What surprised us was how missing values aren't just empty cells to be deleted—recklessly dropping them can destroy valuable context, so choosing between imputation strategies and dropping rows requires careful judgment.
 
-### ‣ Chapter 4 (Transformation, Feature Engineering, and Encoding)
+### ‣ Chapter 4: Transformation, Feature Engineering, and Encoding
 We learned how machine learning models require text and categories to be converted into numerical formats like One-Hot Encoding or Label Encoding. We're surprised to realize that assigning simple numbers to categories (like 1, 2, 3) can accidentally trick a model into thinking one category is "greater than" another, which is why creating dummy binary columns is necessary for non-ordinal features.
 
-### ‣ Chapter 5 (Scaling and Normalization)
+### ‣ Chapter 5: Scaling and Normalization
 We learned that features measured on different scales (like age vs. income) can cause models to heavily favor columns with larger numbers. What surprised us most was that standardizing a feature doesn't change its underlying distribution shape, it simply adjusts the mean to 0 and standard deviation to 1 so every variable competes fairly.
 
-### ‣ Chapter 6 (Outlier Detection)
+### ‣ Chapter 6: Outlier Detection
 We learned how extreme values can severely skew statistical metrics and distort machine learning predictions. What surprised us was discovering that outliers aren't automatically errors to be deleted, sometimes capping them at upper/lower thresholds preserves critical data volume without throwing off the model.
 
-### ‣ Chapter 7 (	Feature Selection)
+### ‣ Chapter 7: Feature Selection
 We learned that more data isn't always better, as redundant or irrelevant features can actually reduce model accuracy and increase computational cost. We were surprised by how wrapper methods like RFECV test actual combinations of variables interactively, whereas filter methods look at isolated statistical relationships like correlation.
 
-### ‣ Chapter 8 (Constructing a Preprocessing Pipeline)
+### ‣ Chapter 8: Constructing a Preprocessing Pipeline
 We learned how pipelines bundle cleaning, scaling, and transformation steps into a unified, reproducible sequence like a factory conveyor belt. What surprised us was how ColumnTransformer allows different feature types (like numerical vs. categorical) to pass through completely different preprocessing chains simultaneously within the same workflow.
 
-### ‣ Chapter 9 (	Full Pipeline and Visualization)
+### ‣ Chapter 9: Full Pipeline and Visualization
 We learned how to combine data cleaning, discretization, encoding, and visualization into an end-to-end workflow on the Titanic dataset. What surprised us was seeing how converting continuous numbers like age into discrete life-stage bins (Child, Adult, Elderly) made survival patterns immediately clear during visualization.
+
+---
 
 ## ❌ ERRORS WE FOUND
 
