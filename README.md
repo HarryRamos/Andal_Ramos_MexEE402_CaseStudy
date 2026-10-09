@@ -23,7 +23,7 @@ Batangas State University, Alangilan Campus
 | Ch8 | [https://colab.research.google.com/drive/1OONiWZBb81peW5Tc-JK5yH0PlYhe33N_?usp=drive_link]() | [https://colab.research.google.com/drive/178qbFtRwRCjeJtPyR_ZYayklDcyFU56I?usp=sharing]() |
 | Ch9 | [https://colab.research.google.com/drive/115DrbnoRXPU83BeerZj3uYdPU6Abm2Uu?usp=drive_link]() | [https://colab.research.google.com/drive/1k-5Ax0w4bTechrfhgrmlxV0sCLH202A-?usp=sharing]() |
 
-## What we learned
+## 📝 What we learned 
 
 ### Chapter 1-3
 We learned that raw datasets are almost always messy, incomplete, or filled with inconsistent formatting that must be cleaned before modeling. What surprised us was how missing values aren't just empty cells to be deleted—recklessly dropping them can destroy valuable context, so choosing between imputation strategies and dropping rows requires careful judgment.
@@ -46,12 +46,12 @@ We learned how pipelines bundle cleaning, scaling, and transformation steps into
 ### Chapter 9
 We learned how to combine data cleaning, discretization, encoding, and visualization into an end-to-end workflow on the Titanic dataset. What surprised us was seeing how converting continuous numbers like age into discrete life-stage bins (Child, Adult, Elderly) made survival patterns immediately clear during visualization.
 
-## Errors we found
+## ❌ Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
 There are real ones in there. Finding them earns points.
 
-## Note on AI tools
+## 🤖 Note on AI tools
 * There are some parts of chapters we use AI about something as the description is too short for us to know and understand about it.
 * 
 
