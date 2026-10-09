@@ -47,18 +47,35 @@ We learned how pipelines bundle cleaning, scaling, and transformation steps into
 We learned how to combine data cleaning, discretization, encoding, and visualization into an end-to-end workflow on the Titanic dataset. What surprised us was seeing how converting continuous numbers like age into discrete life-stage bins (Child, Adult, Elderly) made survival patterns immediately clear during visualization.
 
 ## ❌ ERRORS WE FOUND
+
+### ‣ Chapter 3
+
+**Issue:** Calling `inplace=True` on Series `fillna()` calls triggers `FutureWarning` in modern Pandas versions because chained assignment with inplace modification is deprecated.
+
+**Wrong Version:**
+```python
+df['Year'].fillna(df['Year'].mean(), inplace=True)
+df['Publisher'].fillna(df['Publisher'].mode()[0], inplace=True)
+```
+**Right Version:**
+```python
+df['Year'] = df['Year'].fillna(df['Year'].mean())
+df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0])
+```
+---
+
 ### ‣ Chapter 7
-Issue: df_2 contains only 7 rows of data. Using 5-fold cross-validation (cv=5) results in folds with fewer than 2 samples. This triggers continuous UndefinedMetricWarning: R^2 score is not well-defined with less than two samples warnings and yields inaccurate selection results.
+**Issue:** df_2 contains only 7 rows of data. Using 5-fold cross-validation (cv=5) results in folds with fewer than 2 samples. This triggers continuous UndefinedMetricWarning: R^2 score is not well-defined with less than two samples warnings and yields inaccurate selection results.
 
 <p></p>
 
-Wrong Version: 
+**Wrong Version:**
 ```python
 selector = RFECV(estimator, step=1, cv=5)
 selector = selector.fit(df_2.drop('final grade', axis=1), df_2['final grade'])
 ```
 
-Right Version:
+**Right Version:**
 ```python
 from sklearn.feature_selection import RFE
 
@@ -67,6 +84,7 @@ selector = RFE(estimator, n_features_to_select=1, step=1)
 selector = selector.fit(df_2.drop('final grade', axis=1), df_2['final grade'])
 print(df_2.drop('final grade', axis=1).columns[selector.support_])
 ```
+---
 
 ## 🤖 NOTE ON AI TOOLS
 AI tools (ChatGPT/Gemini) were used as a learning assistant and thought partner throughout this notebook
