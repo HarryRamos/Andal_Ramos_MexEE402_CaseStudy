@@ -15,13 +15,13 @@ Batangas State University, Alangilan Campus
 
 | Chapter | Andal | Ramos |
 |---|---|---|
-| Ch1_2_3 | [https://colab.research.google.com/drive/1JqWPtkRFbfcIdKXRJbOGyARjSB-hbo_P?usp=drive_link]() | [https://colab.research.google.com/drive/1SSskdLsOk4Zad_Hk6fV-qfWHWQcvtS6A?usp=sharing]() |
-| Ch4 | [https://colab.research.google.com/drive/1RHl9thSPiI_9JEmZrS7U5Oj2HJ4RtOWL?usp=drive_link]() | [https://colab.research.google.com/drive/1DR7ortiALB8B0nO8nFEQGEKA-qxmDEqv?usp=sharing]() |
-| Ch5 | [https://colab.research.google.com/drive/1X6tLuBb34RiRdblMmaU3yY0mCgck3cLE?usp=drive_link]() | [https://colab.research.google.com/drive/1P43cVEJcbV3bcGnBSijX84Su9YjgzTXn?usp=sharing]() |
-| Ch6 | [https://colab.research.google.com/drive/11zloPjh4CEg0Saag-OX6OLVg3HPdwECF?usp=drive_link]() | [https://colab.research.google.com/drive/1ckhmwvPmijHeIwl0KdQgwgz6yxRkDTSh?usp=sharing]() |
-| Ch7 | [https://colab.research.google.com/drive/11gKpZZTUuGlyOopEddLQXa9e_jls1VfM?usp=drive_link]() | [https://colab.research.google.com/drive/1-V6PNU7pmqie9poD9MbARCMPUHij7DZn?usp=sharing]() |
-| Ch8 | [https://colab.research.google.com/drive/1OONiWZBb81peW5Tc-JK5yH0PlYhe33N_?usp=drive_link]() | [https://colab.research.google.com/drive/178qbFtRwRCjeJtPyR_ZYayklDcyFU56I?usp=sharing]() |
-| Ch9 | [https://colab.research.google.com/drive/115DrbnoRXPU83BeerZj3uYdPU6Abm2Uu?usp=drive_link]() | [https://colab.research.google.com/drive/1k-5Ax0w4bTechrfhgrmlxV0sCLH202A-?usp=sharing]() |
+| Ch1_2_3 | [https://colab.research.google.com/drive/1JqWPtkRFbfcIdKXRJbOGyARjSB-hbo_P?usp=drive_link]() | [Ramos Ch1_2_3](https://colab.research.google.com/drive/1SSskdLsOk4Zad_Hk6fV-qfWHWQcvtS6A) |
+| Ch4 | [https://colab.research.google.com/drive/1RHl9thSPiI_9JEmZrS7U5Oj2HJ4RtOWL?usp=drive_link]() | [Ramos_Ch4](https://colab.research.google.com/drive/1DR7ortiALB8B0nO8nFEQGEKA-qxmDEqv) |
+| Ch5 | [https://colab.research.google.com/drive/1X6tLuBb34RiRdblMmaU3yY0mCgck3cLE?usp=drive_link]() | [Ramos_Ch5](https://colab.research.google.com/drive/1P43cVEJcbV3bcGnBSijX84Su9YjgzTXn) |
+| Ch6 | [https://colab.research.google.com/drive/11zloPjh4CEg0Saag-OX6OLVg3HPdwECF?usp=drive_link]() | [Ramos_Ch6](https://colab.research.google.com/drive/1ckhmwvPmijHeIwl0KdQgwgz6yxRkDTSh) |
+| Ch7 | [https://colab.research.google.com/drive/11gKpZZTUuGlyOopEddLQXa9e_jls1VfM?usp=drive_link]() | [Ramos_Ch7](https://colab.research.google.com/drive/1-V6PNU7pmqie9poD9MbARCMPUHij7DZn) |
+| Ch8 | [https://colab.research.google.com/drive/1OONiWZBb81peW5Tc-JK5yH0PlYhe33N_?usp=drive_link]() | [Ramos_Ch8](https://colab.research.google.com/drive/178qbFtRwRCjeJtPyR_ZYayklDcyFU56I) |
+| Ch9 | [https://colab.research.google.com/drive/115DrbnoRXPU83BeerZj3uYdPU6Abm2Uu?usp=drive_link]() | [Ramos_Ch9](https://colab.research.google.com/drive/1k-5Ax0w4bTechrfhgrmlxV0sCLH202A-) |
 
 ## 📝 WHAT WE LEARNED
 
