@@ -47,8 +47,26 @@ We learned how pipelines bundle cleaning, scaling, and transformation steps into
 We learned how to combine data cleaning, discretization, encoding, and visualization into an end-to-end workflow on the Titanic dataset. What surprised us was seeing how converting continuous numbers like age into discrete life-stage bins (Child, Adult, Elderly) made survival patterns immediately clear during visualization.
 
 ## ❌ ERRORS WE FOUND
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+### ‣ Chapter 7
+Issue: df_2 contains only 7 rows of data. Using 5-fold cross-validation (cv=5) results in folds with fewer than 2 samples. This triggers continuous UndefinedMetricWarning: R^2 score is not well-defined with less than two samples warnings and yields inaccurate selection results.
+
+<p></p>
+
+Wrong Version: 
+```python
+selector = RFECV(estimator, step=1, cv=5)
+selector = selector.fit(df_2.drop('final grade', axis=1), df_2['final grade'])
+```
+
+Right Version:
+```python
+from sklearn.feature_selection import RFE
+
+# Use standard RFE without cross-validation for extremely small datasets
+selector = RFE(estimator, n_features_to_select=1, step=1)
+selector = selector.fit(df_2.drop('final grade', axis=1), df_2['final grade'])
+print(df_2.drop('final grade', axis=1).columns[selector.support_])
+```
 
 ## 🤖 NOTE ON AI TOOLS
 AI tools (ChatGPT/Gemini) were used as a learning assistant and thought partner throughout this notebook
