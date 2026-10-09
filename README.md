@@ -34,9 +34,8 @@ List any mistake you found in the original notebooks, and the correct version.
 There are real ones in there. Finding them earns points.
 
 ## Note on AI tools
-
-Say whether you used an AI tool, and what for. This is not a penalty.
-Hiding it is.
+* There are some parts of chapters we use AI about something as the description is too short for us to know and understand about it.
+* 
 
 ## References
 
